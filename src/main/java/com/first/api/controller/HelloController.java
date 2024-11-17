@@ -8,37 +8,40 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HelloController {
 
-    //Este es un nuevo comentario
-    //Agregamos algo nuevo 2
-    @GetMapping("/hello")
-    public String saludar(){
-        return "Hola Mundo con REST en Spring Boot";
-    }
+  //Este es un nuevo comentario
+  //Agregamos algo nuevo 2
+  @GetMapping("/hello")
+  public String hello() {
+    return "Hello World with Rest and Spring-Boot";
+  }
 
-    //Este es otro comentario
-    //Agregamos algo 1
-    @GetMapping("/hello2")
-    public String saludar2(){
-        return "Hola Mundo con REST en Spring Boot";
-    }
+  //Este es otro comentario
+  //Agregamos algo 1
+  @GetMapping("/hello2")
+  public String hello2() {
+    return "Hello World with Rest and Spring-Boot";
+  }
 
+  @GetMapping("/hello3")
+  public String hello3() {
+    return "Hello World with Rest and Spring-Boot";
+  }
 
-    @GetMapping("/hello3")
-    public String saludar3(){
-        return "Hola Mundo con REST en Spring Boot";
-    }
+  @GetMapping("/hello4")
+  public String hello4() {
+    return "Hello World with Rest and Spring-Boot";
+  }
 
+  //Otro comentario
+  @GetMapping("/hello6")
+  public String hello6() {
+    return "Hello World with Rest and Spring-Boot";
+  }
 
-    @GetMapping("/hello4")
-    public String saludar4(){
-        return "Hola Mundo con REST en Spring Boot";
-    }
+  @GetMapping("/hello7")
+  public String hello7() {
+    return "Hello World with Rest and Spring-Boot";
+  }
 
-
-    //Otro comentario
-    @GetMapping("/hello6")
-    public String saludar6(){
-        return "Hola Mundo con REST en Spring Boot";
-    }
 }
 

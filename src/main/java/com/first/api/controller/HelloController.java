@@ -33,10 +33,5 @@ public class HelloController {
     return "Hello World with Rest and Spring-Boot";
   }
 
-  @GetMapping("/hello7")
-  public String hello7() {
-    return "Hello World with Rest and Spring-Boot";
-  }
-
 }
 

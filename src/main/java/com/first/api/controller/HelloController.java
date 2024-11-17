@@ -8,15 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HelloController {
 
-  //Este es un nuevo comentario
-  //Agregamos algo nuevo 2
   @GetMapping("/hello")
   public String hello() {
     return "Hello World with Rest and Spring-Boot";
   }
 
-  //Este es otro comentario
-  //Agregamos algo 1
   @GetMapping("/hello2")
   public String hello2() {
     return "Hello World with Rest and Spring-Boot";
@@ -32,7 +28,6 @@ public class HelloController {
     return "Hello World with Rest and Spring-Boot";
   }
 
-  //Otro comentario
   @GetMapping("/hello6")
   public String hello6() {
     return "Hello World with Rest and Spring-Boot";

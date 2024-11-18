@@ -23,5 +23,15 @@ public class HelloController {
     return "Hello World with Rest and Spring-Boot";
   }
 
+  @GetMapping("/hello4")
+  public String hello4() {
+    return "Hello World with Rest and Spring-Boot";
+  }
+
+  @GetMapping("/hello5")
+  public String hello5() {
+    return "Hello World with Rest and Spring-Boot";
+  }
+
 }
 

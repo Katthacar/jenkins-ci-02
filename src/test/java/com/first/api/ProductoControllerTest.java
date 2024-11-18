@@ -20,7 +20,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-@SpringBootTest
+//@SpringBootTest
 public class ProductoControllerTest {
 
   @InjectMocks
@@ -29,10 +29,10 @@ public class ProductoControllerTest {
   @Mock
   private ProductoService productoService;
 
-//  @BeforeEach
-//  void setUp() {
-//    MockitoAnnotations.openMocks(this);
-//  }
+  @BeforeEach
+  void setUp() {
+    MockitoAnnotations.openMocks(this);
+  }
 
   @Test
   void agregarProducto_CuandoSeLlama_DevuelveProducto() {
